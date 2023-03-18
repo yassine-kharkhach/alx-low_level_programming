@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /*
  * starting whith pre processor
  * than go to the main
@@ -9,7 +8,6 @@
  * than print what we have to print 
  * than return 0
 */
-
 int main(void){
 	int n;
 
