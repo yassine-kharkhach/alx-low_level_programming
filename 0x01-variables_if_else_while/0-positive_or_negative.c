@@ -1,13 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+int main(void)
+{
 /*
  * main - start point
  * Description : = 'cheack for number if it higher or lower o equal a 0'
  * Return :  0
 */
-int main(void)
-{
+
 	int n;
 
 	srand(time(0));
