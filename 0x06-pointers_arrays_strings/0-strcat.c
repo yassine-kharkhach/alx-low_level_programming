@@ -6,16 +6,16 @@
  * Return: Always 0.
  */
 
-char *_strncat(char *dest, char *src){
+char *_strcat(char *dest, char *src){
         int i = 0;
         int j = 0;
-        
-        while(dest[i])
+
+        while (dest[i])
         {
             dest[i] == dest[i];
                 i++;
         }
-        while(src[j] && i < n)
+        while (src[j])
         {
                 dest[i] = src[j];
                 i++;
@@ -23,4 +23,4 @@ char *_strncat(char *dest, char *src){
         }
         dest[i] = '\0';
         return(dest);
-}
+}i
